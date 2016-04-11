@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845E714E1CBB687000FE485B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E714D1CBB687000FE485B /* AppDelegate.swift */; };
+		845E71501CBB687000FE485B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E714F1CBB687000FE485B /* ViewController.swift */; };
+		845E71531CBB687000FE485B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845E71511CBB687000FE485B /* Main.storyboard */; };
+		845E71551CBB687000FE485B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845E71541CBB687000FE485B /* Assets.xcassets */; };
+		845E71581CBB687000FE485B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845E71561CBB687000FE485B /* LaunchScreen.storyboard */; };
+		845E71631CBB687000FE485B /* Incident_Reporting_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E71621CBB687000FE485B /* Incident_Reporting_SystemTests.swift */; };
+		845E716E1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E716D1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845E715F1CBB687000FE485B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845E71421CBB687000FE485B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845E71491CBB687000FE485B;
+			remoteInfo = "Incident Reporting System";
+		};
+		845E716A1CBB687000FE485B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845E71421CBB687000FE485B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845E71491CBB687000FE485B;
+			remoteInfo = "Incident Reporting System";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		845E714A1CBB687000FE485B /* Incident Reporting System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Incident Reporting System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845E714D1CBB687000FE485B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		845E714F1CBB687000FE485B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		845E71521CBB687000FE485B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845E71541CBB687000FE485B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845E71571CBB687000FE485B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845E71591CBB687000FE485B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845E715E1CBB687000FE485B /* Incident Reporting SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Incident Reporting SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845E71621CBB687000FE485B /* Incident_Reporting_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incident_Reporting_SystemTests.swift; sourceTree = "<group>"; };
+		845E71641CBB687000FE485B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845E71691CBB687000FE485B /* Incident Reporting SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Incident Reporting SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845E716D1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incident_Reporting_SystemUITests.swift; sourceTree = "<group>"; };
+		845E716F1CBB687000FE485B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845E71471CBB687000FE485B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845E715B1CBB687000FE485B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845E71661CBB687000FE485B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845E71411CBB687000FE485B = {
+			isa = PBXGroup;
+			children = (
+				845E714C1CBB687000FE485B /* Incident Reporting System */,
+				845E71611CBB687000FE485B /* Incident Reporting SystemTests */,
+				845E716C1CBB687000FE485B /* Incident Reporting SystemUITests */,
+				845E714B1CBB687000FE485B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845E714B1CBB687000FE485B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845E714A1CBB687000FE485B /* Incident Reporting System.app */,
+				845E715E1CBB687000FE485B /* Incident Reporting SystemTests.xctest */,
+				845E71691CBB687000FE485B /* Incident Reporting SystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845E714C1CBB687000FE485B /* Incident Reporting System */ = {
+			isa = PBXGroup;
+			children = (
+				845E714D1CBB687000FE485B /* AppDelegate.swift */,
+				845E714F1CBB687000FE485B /* ViewController.swift */,
+				845E71511CBB687000FE485B /* Main.storyboard */,
+				845E71541CBB687000FE485B /* Assets.xcassets */,
+				845E71561CBB687000FE485B /* LaunchScreen.storyboard */,
+				845E71591CBB687000FE485B /* Info.plist */,
+			);
+			path = "Incident Reporting System";
+			sourceTree = "<group>";
+		};
+		845E71611CBB687000FE485B /* Incident Reporting SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				845E71621CBB687000FE485B /* Incident_Reporting_SystemTests.swift */,
+				845E71641CBB687000FE485B /* Info.plist */,
+			);
+			path = "Incident Reporting SystemTests";
+			sourceTree = "<group>";
+		};
+		845E716C1CBB687000FE485B /* Incident Reporting SystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				845E716D1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift */,
+				845E716F1CBB687000FE485B /* Info.plist */,
+			);
+			path = "Incident Reporting SystemUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845E71491CBB687000FE485B /* Incident Reporting System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845E71721CBB687000FE485B /* Build configuration list for PBXNativeTarget "Incident Reporting System" */;
+			buildPhases = (
+				845E71461CBB687000FE485B /* Sources */,
+				845E71471CBB687000FE485B /* Frameworks */,
+				845E71481CBB687000FE485B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Incident Reporting System";
+			productName = "Incident Reporting System";
+			productReference = 845E714A1CBB687000FE485B /* Incident Reporting System.app */;
+			productType = "com.apple.product-type.application";
+		};
+		845E715D1CBB687000FE485B /* Incident Reporting SystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845E71751CBB687000FE485B /* Build configuration list for PBXNativeTarget "Incident Reporting SystemTests" */;
+			buildPhases = (
+				845E715A1CBB687000FE485B /* Sources */,
+				845E715B1CBB687000FE485B /* Frameworks */,
+				845E715C1CBB687000FE485B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845E71601CBB687000FE485B /* PBXTargetDependency */,
+			);
+			name = "Incident Reporting SystemTests";
+			productName = "Incident Reporting SystemTests";
+			productReference = 845E715E1CBB687000FE485B /* Incident Reporting SystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		845E71681CBB687000FE485B /* Incident Reporting SystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845E71781CBB687000FE485B /* Build configuration list for PBXNativeTarget "Incident Reporting SystemUITests" */;
+			buildPhases = (
+				845E71651CBB687000FE485B /* Sources */,
+				845E71661CBB687000FE485B /* Frameworks */,
+				845E71671CBB687000FE485B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845E716B1CBB687000FE485B /* PBXTargetDependency */,
+			);
+			name = "Incident Reporting SystemUITests";
+			productName = "Incident Reporting SystemUITests";
+			productReference = 845E71691CBB687000FE485B /* Incident Reporting SystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845E71421CBB687000FE485B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dreamsmart;
+				TargetAttributes = {
+					845E71491CBB687000FE485B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FK32L99BU3;
+					};
+					845E715D1CBB687000FE485B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FK32L99BU3;
+						TestTargetID = 845E71491CBB687000FE485B;
+					};
+					845E71681CBB687000FE485B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FK32L99BU3;
+						TestTargetID = 845E71491CBB687000FE485B;
+					};
+				};
+			};
+			buildConfigurationList = 845E71451CBB687000FE485B /* Build configuration list for PBXProject "Incident Reporting System" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845E71411CBB687000FE485B;
+			productRefGroup = 845E714B1CBB687000FE485B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845E71491CBB687000FE485B /* Incident Reporting System */,
+				845E715D1CBB687000FE485B /* Incident Reporting SystemTests */,
+				845E71681CBB687000FE485B /* Incident Reporting SystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845E71481CBB687000FE485B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845E71581CBB687000FE485B /* LaunchScreen.storyboard in Resources */,
+				845E71551CBB687000FE485B /* Assets.xcassets in Resources */,
+				845E71531CBB687000FE485B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845E715C1CBB687000FE485B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845E71671CBB687000FE485B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845E71461CBB687000FE485B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845E71501CBB687000FE485B /* ViewController.swift in Sources */,
+				845E714E1CBB687000FE485B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845E715A1CBB687000FE485B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845E71631CBB687000FE485B /* Incident_Reporting_SystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845E71651CBB687000FE485B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845E716E1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845E71601CBB687000FE485B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845E71491CBB687000FE485B /* Incident Reporting System */;
+			targetProxy = 845E715F1CBB687000FE485B /* PBXContainerItemProxy */;
+		};
+		845E716B1CBB687000FE485B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845E71491CBB687000FE485B /* Incident Reporting System */;
+			targetProxy = 845E716A1CBB687000FE485B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		845E71511CBB687000FE485B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845E71521CBB687000FE485B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845E71561CBB687000FE485B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845E71571CBB687000FE485B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845E71701CBB687000FE485B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845E71711CBB687000FE485B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845E71731CBB687000FE485B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Incident Reporting System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamsmart.Incident-Reporting-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		845E71741CBB687000FE485B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Incident Reporting System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamsmart.Incident-Reporting-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		845E71761CBB687000FE485B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Incident Reporting SystemTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamsmart.Incident-Reporting-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Incident Reporting System.app/Incident Reporting System";
+			};
+			name = Debug;
+		};
+		845E71771CBB687000FE485B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Incident Reporting SystemTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamsmart.Incident-Reporting-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Incident Reporting System.app/Incident Reporting System";
+			};
+			name = Release;
+		};
+		845E71791CBB687000FE485B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Incident Reporting SystemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamsmart.Incident-Reporting-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Incident Reporting System";
+			};
+			name = Debug;
+		};
+		845E717A1CBB687000FE485B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Incident Reporting SystemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamsmart.Incident-Reporting-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Incident Reporting System";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845E71451CBB687000FE485B /* Build configuration list for PBXProject "Incident Reporting System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845E71701CBB687000FE485B /* Debug */,
+				845E71711CBB687000FE485B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845E71721CBB687000FE485B /* Build configuration list for PBXNativeTarget "Incident Reporting System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845E71731CBB687000FE485B /* Debug */,
+				845E71741CBB687000FE485B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		845E71751CBB687000FE485B /* Build configuration list for PBXNativeTarget "Incident Reporting SystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845E71761CBB687000FE485B /* Debug */,
+				845E71771CBB687000FE485B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		845E71781CBB687000FE485B /* Build configuration list for PBXNativeTarget "Incident Reporting SystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845E71791CBB687000FE485B /* Debug */,
+				845E717A1CBB687000FE485B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845E71421CBB687000FE485B /* Project object */;
+}
