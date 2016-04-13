@@ -487,6 +487,7 @@
 				845E71741CBB687000FE485B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845E71751CBB687000FE485B /* Build configuration list for PBXNativeTarget "Incident Reporting SystemTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +496,7 @@
 				845E71771CBB687000FE485B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845E71781CBB687000FE485B /* Build configuration list for PBXNativeTarget "Incident Reporting SystemUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +505,7 @@
 				845E717A1CBB687000FE485B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
