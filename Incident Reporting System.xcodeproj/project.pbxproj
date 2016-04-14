@@ -97,6 +97,9 @@
 		845E714C1CBB687000FE485B /* Incident Reporting System */ = {
 			isa = PBXGroup;
 			children = (
+				84E9E5181CBE3D6900AEA570 /* controller */,
+				84E9E5171CBE3D6200AEA570 /* model */,
+				84E9E5161CBE3D5200AEA570 /* view */,
 				845E714D1CBB687000FE485B /* AppDelegate.swift */,
 				845E714F1CBB687000FE485B /* ViewController.swift */,
 				845E71511CBB687000FE485B /* Main.storyboard */,
@@ -123,6 +126,27 @@
 				845E716F1CBB687000FE485B /* Info.plist */,
 			);
 			path = "Incident Reporting SystemUITests";
+			sourceTree = "<group>";
+		};
+		84E9E5161CBE3D5200AEA570 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		84E9E5171CBE3D6200AEA570 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		84E9E5181CBE3D6900AEA570 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
