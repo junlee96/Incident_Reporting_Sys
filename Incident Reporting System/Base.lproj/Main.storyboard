@@ -153,6 +153,7 @@
         <!--View Controller-->
         <scene sceneID="Htr-qG-mpO">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fTW-4p-T1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="p3C-PE-H0p" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6eL-Ip-krC"/>
@@ -164,7 +165,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fTW-4p-T1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="289" y="-298"/>
         </scene>
