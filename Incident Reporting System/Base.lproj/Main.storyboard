@@ -19,22 +19,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="prt-0I-ETy">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="54"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="MWe-kZ-yES"/>
-                                </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incident Reporting System" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hfs-dw-nz1">
-                                <rect key="frame" x="199" y="17" width="203" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="dwE-cX-66f"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="M39-7o-gO0">
+                                <rect key="frame" x="0.0" y="0.0" width="605" height="54"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="prt-0I-ETy">
+                                        <rect key="frame" x="0.0" y="0.0" width="605" height="54"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incident Reporting System" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hfs-dw-nz1">
+                                                <rect key="frame" x="201" y="17" width="203" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="dwE-cX-66f"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="MWe-kZ-yES"/>
+                                            <constraint firstItem="Hfs-dw-nz1" firstAttribute="centerY" secondItem="prt-0I-ETy" secondAttribute="centerY" id="YQB-82-Fj5"/>
+                                            <constraint firstItem="Hfs-dw-nz1" firstAttribute="centerX" secondItem="prt-0I-ETy" secondAttribute="centerX" id="aL1-UH-V02"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r3g-57-2J7">
                                 <rect key="frame" x="138" y="197" width="301" height="151"/>
                                 <subviews>
@@ -126,14 +135,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="prt-0I-ETy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6sx-H9-rEr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="prt-0I-ETy" secondAttribute="trailing" id="E7e-Vx-OAC"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Hfs-dw-nz1" secondAttribute="trailing" constant="178" id="EbX-Cb-97w"/>
+                            <constraint firstItem="M39-7o-gO0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="97G-0l-bCN"/>
                             <constraint firstItem="r3g-57-2J7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GxH-61-zU6"/>
-                            <constraint firstItem="Hfs-dw-nz1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="179" id="Qkh-0a-U07"/>
-                            <constraint firstItem="prt-0I-ETy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="eKx-x6-d7t"/>
+                            <constraint firstItem="M39-7o-gO0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Lm5-sC-lay"/>
                             <constraint firstItem="r3g-57-2J7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="flP-0B-ymk"/>
-                            <constraint firstItem="Hfs-dw-nz1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="17" id="r2V-WD-BfT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M39-7o-gO0" secondAttribute="trailing" constant="-25" id="rUT-eA-fun"/>
                         </constraints>
                     </view>
                 </viewController>
