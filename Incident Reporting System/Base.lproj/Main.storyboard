@@ -273,9 +273,11 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ttb-X0-gJ1">
                                                 <rect key="frame" x="0.0" y="152" width="225" height="30"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsV-QN-C9i">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsV-QN-C9i">
                                                         <rect key="frame" x="0.0" y="0.0" width="225" height="30"/>
-                                                        <state key="normal" title="Login"/>
+                                                        <state key="normal" title="Login">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <segue destination="p3C-PE-H0p" kind="show" id="dtJ-6P-aOh"/>
                                                         </connections>
@@ -445,7 +447,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fTW-4p-T1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="289" y="-298"/>
+            <point key="canvasLocation" x="1961" y="491"/>
         </scene>
     </scenes>
     <resources>
