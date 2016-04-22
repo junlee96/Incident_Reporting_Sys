@@ -257,11 +257,20 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ttb-X0-gJ1">
                                                 <rect key="frame" x="0.0" y="152" width="225" height="30"/>
                                                 <subviews>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vuz-bv-avJ">
                                                         <rect key="frame" x="0.0" y="0.0" width="225" height="30"/>
                                                         <state key="normal" title="Cannot access account">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsV-QN-C9i">
+                                                        <rect key="frame" x="0.0" y="0.0" width="38" height="30"/>
+                                                        <state key="normal" title="Login"/>
+                                                        <connections>
+                                                            <segue destination="p3C-PE-H0p" kind="show" id="dtJ-6P-aOh"/>
+                                                        </connections>
+>>>>>>> 3792266b8035e6d1e815578991a0a69ab6ec3cd9
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -418,6 +427,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RhE-Ze-Sqp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1988" y="497"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Htr-qG-mpO">
+            <objects>
+                <viewController id="p3C-PE-H0p" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6eL-Ip-krC"/>
+                        <viewControllerLayoutGuide type="bottom" id="LO2-tL-f8H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3J2-T5-YeS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fTW-4p-T1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="289" y="-298"/>
         </scene>
     </scenes>
     <resources>
