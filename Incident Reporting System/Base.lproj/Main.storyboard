@@ -151,31 +151,36 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="9LV-gm-klh">
-                                <rect key="frame" x="186" y="154" width="228" height="324"/>
+                                <rect key="frame" x="186" y="125" width="225" height="350"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wG4-5R-DnR">
-                                        <rect key="frame" x="0.0" y="0.0" width="228" height="96"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wG4-5R-DnR">
+                                        <rect key="frame" x="0.0" y="0.0" width="225" height="96"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="0hc-35-1lQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="228" height="96"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="0hc-35-1lQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="225" height="96"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="89y-My-do4">
-                                        <rect key="frame" x="0.0" y="126" width="228" height="198"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="89y-My-do4">
+                                        <rect key="frame" x="0.0" y="126" width="225" height="224"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="PID-SO-pwK">
-                                                <rect key="frame" x="0.0" y="0.0" width="228" height="30"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="PID-SO-pwK">
+                                                <rect key="frame" x="0.0" y="0.0" width="225" height="30"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="username" translatesAutoresizingMaskIntoConstraints="NO" id="Umx-r8-TWg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="username" translatesAutoresizingMaskIntoConstraints="NO" id="Umx-r8-TWg">
+                                                        <rect key="frame" x="0.0" y="0.0" width="27" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="Umx-r8-TWg" secondAttribute="height" multiplier="1:1" id="531-ea-4Ol"/>
                                                             <constraint firstAttribute="height" constant="30" id="zK2-P0-tbi"/>
                                                         </constraints>
+                                                        <variation key="default">
+                                                            <mask key="constraints">
+                                                                <exclude reference="531-ea-4Ol"/>
+                                                            </mask>
+                                                        </variation>
                                                     </imageView>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Bl-Fj-1G2">
-                                                        <rect key="frame" x="34" y="0.0" width="194" height="30"/>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Bl-Fj-1G2">
+                                                        <rect key="frame" x="31" y="0.0" width="194" height="30"/>
                                                         <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="9Bl-Fj-1G2" secondAttribute="height" multiplier="97:15" id="9IX-nQ-ktN"/>
@@ -186,18 +191,36 @@
                                                     </textField>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="8sb-M4-NX8">
-                                                <rect key="frame" x="0.0" y="42" width="228" height="30"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="K60-fG-YiY">
+                                                <rect key="frame" x="0.0" y="42" width="225" height="1"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="password" translatesAutoresizingMaskIntoConstraints="NO" id="hyt-2B-aEn">
-                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bJ-Xu-qrN">
+                                                        <rect key="frame" x="0.0" y="0.0" width="225" height="1"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="9bJ-Xu-qrN" secondAttribute="height" multiplier="225:1" id="DE7-Ta-JBc"/>
+                                                            <constraint firstAttribute="width" constant="225" id="foi-dz-8Ik"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="8sb-M4-NX8">
+                                                <rect key="frame" x="0.0" y="55" width="225" height="30"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="password" translatesAutoresizingMaskIntoConstraints="NO" id="hyt-2B-aEn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="27" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="hyt-2B-aEn" secondAttribute="height" multiplier="1:1" id="g3M-Ah-YCw"/>
                                                             <constraint firstAttribute="height" constant="30" id="q9s-8k-qxh"/>
                                                         </constraints>
+                                                        <variation key="default">
+                                                            <mask key="constraints">
+                                                                <exclude reference="g3M-Ah-YCw"/>
+                                                            </mask>
+                                                        </variation>
                                                     </imageView>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nH9-PC-87D">
-                                                        <rect key="frame" x="34" y="0.0" width="194" height="30"/>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nH9-PC-87D">
+                                                        <rect key="frame" x="31" y="0.0" width="194" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="nH9-PC-87D" secondAttribute="height" multiplier="97:15" id="eOs-rv-V3b"/>
                                                             <constraint firstAttribute="height" constant="30" id="nQP-zs-cXm"/>
@@ -207,33 +230,46 @@
                                                     </textField>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JBW-t6-N1V">
-                                                <rect key="frame" x="0.0" y="84" width="228" height="30"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FOo-ey-DxX">
+                                                <rect key="frame" x="0.0" y="97" width="225" height="1"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKm-KB-tva">
-                                                        <rect key="frame" x="0.0" y="0.0" width="228" height="30"/>
+                                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aBw-Cu-Pm3">
+                                                        <rect key="frame" x="0.0" y="0.0" width="225" height="1"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="aBw-Cu-Pm3" secondAttribute="height" multiplier="225:1" id="s7i-bO-W3i"/>
+                                                            <constraint firstAttribute="width" constant="225" id="zqJ-5e-UUp"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JBW-t6-N1V">
+                                                <rect key="frame" x="0.0" y="110" width="225" height="30"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKm-KB-tva">
+                                                        <rect key="frame" x="0.0" y="0.0" width="225" height="30"/>
                                                         <state key="normal" title="Login to account">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ttb-X0-gJ1">
-                                                <rect key="frame" x="0.0" y="126" width="228" height="30"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ttb-X0-gJ1">
+                                                <rect key="frame" x="0.0" y="152" width="225" height="30"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vuz-bv-avJ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="228" height="30"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vuz-bv-avJ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="225" height="30"/>
                                                         <state key="normal" title="Cannot access account">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aUy-kq-Pnh">
-                                                <rect key="frame" x="0.0" y="168" width="228" height="30"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aUy-kq-Pnh">
+                                                <rect key="frame" x="0.0" y="194" width="225" height="30"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSy-BW-C8E">
-                                                        <rect key="frame" x="0.0" y="0.0" width="228" height="30"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSy-BW-C8E">
+                                                        <rect key="frame" x="0.0" y="0.0" width="225" height="30"/>
                                                         <state key="normal" title="Register account">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
@@ -244,14 +280,6 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bJ-Xu-qrN">
-                                <rect key="frame" x="190" y="316" width="225" height="1"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aBw-Cu-Pm3">
-                                <rect key="frame" x="187" y="358" width="225" height="1"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
