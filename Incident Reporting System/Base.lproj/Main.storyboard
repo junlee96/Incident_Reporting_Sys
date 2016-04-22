@@ -133,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j3V-0T-BF7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1149" y="497"/>
+            <point key="canvasLocation" x="1005" y="1455"/>
         </scene>
         <!--Login-->
         <scene sceneID="0o7-u5-LLt">
@@ -150,14 +150,30 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Nv1-PR-v1w">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="9LV-gm-klh">
-                                <rect key="frame" x="186" y="125" width="225" height="350"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zAv-oH-ClN">
+                                <rect key="frame" x="100" y="100" width="400" height="400"/>
+                                <color key="backgroundColor" white="1" alpha="0.28277371453900707" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="Edv-Hm-FSK"/>
+                                    <constraint firstAttribute="width" secondItem="zAv-oH-ClN" secondAttribute="height" multiplier="1:1" id="gsD-nD-891"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="9LV-gm-klh">
+                                <rect key="frame" x="188" y="125" width="225" height="350"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wG4-5R-DnR">
                                         <rect key="frame" x="0.0" y="0.0" width="225" height="96"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="0hc-35-1lQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="225" height="96"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="100"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </imageView>
                                         </subviews>
                                     </stackView>
@@ -257,20 +273,12 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ttb-X0-gJ1">
                                                 <rect key="frame" x="0.0" y="152" width="225" height="30"/>
                                                 <subviews>
-<<<<<<< HEAD
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vuz-bv-avJ">
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsV-QN-C9i">
                                                         <rect key="frame" x="0.0" y="0.0" width="225" height="30"/>
-                                                        <state key="normal" title="Cannot access account">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        </state>
-=======
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsV-QN-C9i">
-                                                        <rect key="frame" x="0.0" y="0.0" width="38" height="30"/>
                                                         <state key="normal" title="Login"/>
                                                         <connections>
                                                             <segue destination="p3C-PE-H0p" kind="show" id="dtJ-6P-aOh"/>
                                                         </connections>
->>>>>>> 3792266b8035e6d1e815578991a0a69ab6ec3cd9
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -297,42 +305,35 @@
                             <constraint firstItem="9LV-gm-klh" firstAttribute="centerX" secondItem="9m6-q1-NZL" secondAttribute="centerX" id="FFd-cQ-MWq"/>
                             <constraint firstItem="Nv1-PR-v1w" firstAttribute="top" secondItem="9m6-q1-NZL" secondAttribute="topMargin" id="RM3-ii-e8o"/>
                             <constraint firstItem="Nv1-PR-v1w" firstAttribute="leading" secondItem="9m6-q1-NZL" secondAttribute="leadingMargin" constant="-20" id="Rab-V4-8ON"/>
+                            <constraint firstItem="zAv-oH-ClN" firstAttribute="centerX" secondItem="9m6-q1-NZL" secondAttribute="centerX" id="UTR-ff-3sY"/>
                             <constraint firstItem="Nv1-PR-v1w" firstAttribute="leading" secondItem="9m6-q1-NZL" secondAttribute="leadingMargin" constant="-20" id="Ugw-1F-M2Y"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Nv1-PR-v1w" secondAttribute="trailing" constant="-20" id="lde-tX-3oK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Nv1-PR-v1w" secondAttribute="trailing" constant="-20" id="olA-qU-Sft"/>
+                            <constraint firstItem="zAv-oH-ClN" firstAttribute="centerY" secondItem="9m6-q1-NZL" secondAttribute="centerY" id="wwq-dV-5aE"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jX1-6I-UKJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="168" y="1464"/>
+            <point key="canvasLocation" x="1080" y="491"/>
         </scene>
         <!--Home -->
         <scene sceneID="uL4-Le-Wfl">
             <objects>
                 <viewController title="Home " id="6Ta-dP-Pid" customClass="HomeVC" customModule="Incident_Reporting_System" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="HgO-MI-jom"/>
-                        <viewControllerLayoutGuide type="bottom" id="fUv-p2-spf"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="irV-QL-tg8">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" id="0LB-jb-vN4">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <gestureRecognizers/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="atR-oD-Jba" appends="YES" id="hn0-ce-bgY"/>
-                        </connections>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                     <navigationItem key="navigationItem" title="Home" id="cgt-aI-IOL"/>
                     <connections>
-                        <segue destination="ShZ-di-hgb" kind="presentation" id="9xs-0z-kgg"/>
+                        <segue destination="ID3-7z-tE5" kind="presentation" id="g1c-Xp-jc8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d38-fx-dBG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="atR-oD-Jba"/>
             </objects>
-            <point key="canvasLocation" x="354" y="497"/>
+            <point key="canvasLocation" x="302" y="497"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cH0-tT-eqn">
@@ -426,7 +427,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RhE-Ze-Sqp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1988" y="497"/>
+            <point key="canvasLocation" x="1888" y="1445"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Htr-qG-mpO">
