@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		842A8CF11CC8698500D8FF63 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A8CF01CC8698500D8FF63 /* CustomView.swift */; };
 		842A8CF51CC86F7100D8FF63 /* createDesignableUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A8CF41CC86F7100D8FF63 /* createDesignableUI.swift */; };
+		845CB4351CCE0730000DD05F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB4341CCE0730000DD05F /* User.swift */; };
 		845E714E1CBB687000FE485B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E714D1CBB687000FE485B /* AppDelegate.swift */; };
 		845E71501CBB687000FE485B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E714F1CBB687000FE485B /* ViewController.swift */; };
 		845E71531CBB687000FE485B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845E71511CBB687000FE485B /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		845E71581CBB687000FE485B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845E71561CBB687000FE485B /* LaunchScreen.storyboard */; };
 		845E71631CBB687000FE485B /* Incident_Reporting_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E71621CBB687000FE485B /* Incident_Reporting_SystemTests.swift */; };
 		845E716E1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E716D1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift */; };
+		84C005691CCDF932003292AE /* immaga_router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C005681CCDF932003292AE /* immaga_router.swift */; };
+		B23871975AA1F3BAA1159BEB /* Pods_Incident_Reporting_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C20E36BACCD5523BF6E496 /* Pods_Incident_Reporting_System.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621C72C64AB731DB3482CC51 /* Pods-Incident Reporting System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Incident Reporting System.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Incident Reporting System/Pods-Incident Reporting System.debug.xcconfig"; sourceTree = "<group>"; };
+		66C20E36BACCD5523BF6E496 /* Pods_Incident_Reporting_System.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Incident_Reporting_System.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5A898890B5BE2A5C1256B4 /* Pods-Incident Reporting System.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Incident Reporting System.release.xcconfig"; path = "Pods/Target Support Files/Pods-Incident Reporting System/Pods-Incident Reporting System.release.xcconfig"; sourceTree = "<group>"; };
 		842A8CF01CC8698500D8FF63 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		842A8CF41CC86F7100D8FF63 /* createDesignableUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createDesignableUI.swift; sourceTree = "<group>"; };
+		845CB4341CCE0730000DD05F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		845E714A1CBB687000FE485B /* Incident Reporting System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Incident Reporting System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845E714D1CBB687000FE485B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845E714F1CBB687000FE485B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 		845E71691CBB687000FE485B /* Incident Reporting SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Incident Reporting SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845E716D1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incident_Reporting_SystemUITests.swift; sourceTree = "<group>"; };
 		845E716F1CBB687000FE485B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C005681CCDF932003292AE /* immaga_router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = immaga_router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23871975AA1F3BAA1159BEB /* Pods_Incident_Reporting_System.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		518FE32334B001256508CD95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66C20E36BACCD5523BF6E496 /* Pods_Incident_Reporting_System.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		842A8CF21CC86C6300D8FF63 /* util */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +116,8 @@
 				845E71611CBB687000FE485B /* Incident Reporting SystemTests */,
 				845E716C1CBB687000FE485B /* Incident Reporting SystemUITests */,
 				845E714B1CBB687000FE485B /* Products */,
+				9BBB053024733930A8269A61 /* Pods */,
+				518FE32334B001256508CD95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +179,8 @@
 		84E9E5171CBE3D6200AEA570 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				84C005681CCDF932003292AE /* immaga_router.swift */,
+				845CB4341CCE0730000DD05F /* User.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -171,6 +192,15 @@
 			name = controller;
 			sourceTree = "<group>";
 		};
+		9BBB053024733930A8269A61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				621C72C64AB731DB3482CC51 /* Pods-Incident Reporting System.debug.xcconfig */,
+				7F5A898890B5BE2A5C1256B4 /* Pods-Incident Reporting System.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845E71721CBB687000FE485B /* Build configuration list for PBXNativeTarget "Incident Reporting System" */;
 			buildPhases = (
+				E4BAEF96B9285887DD9CA3A8 /* Check Pods Manifest.lock */,
 				845E71461CBB687000FE485B /* Sources */,
 				845E71471CBB687000FE485B /* Frameworks */,
 				845E71481CBB687000FE485B /* Resources */,
+				39A9AB08CFA07055F118A180 /* Embed Pods Frameworks */,
+				1649BDCC0F37958201F4EF89 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,15 +333,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1649BDCC0F37958201F4EF89 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Incident Reporting System/Pods-Incident Reporting System-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39A9AB08CFA07055F118A180 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Incident Reporting System/Pods-Incident Reporting System-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4BAEF96B9285887DD9CA3A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		845E71461CBB687000FE485B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				842A8CF11CC8698500D8FF63 /* CustomView.swift in Sources */,
+				84C005691CCDF932003292AE /* immaga_router.swift in Sources */,
 				845E71501CBB687000FE485B /* ViewController.swift in Sources */,
 				845E714E1CBB687000FE485B /* AppDelegate.swift in Sources */,
 				842A8CF51CC86F7100D8FF63 /* createDesignableUI.swift in Sources */,
+				845CB4351CCE0730000DD05F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +533,7 @@
 		};
 		845E71731CBB687000FE485B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621C72C64AB731DB3482CC51 /* Pods-Incident Reporting System.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Incident Reporting System/Info.plist";
@@ -461,6 +545,7 @@
 		};
 		845E71741CBB687000FE485B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5A898890B5BE2A5C1256B4 /* Pods-Incident Reporting System.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Incident Reporting System/Info.plist";
