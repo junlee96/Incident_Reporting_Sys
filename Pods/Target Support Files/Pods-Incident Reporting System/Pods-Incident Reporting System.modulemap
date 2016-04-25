@@ -1,0 +1,6 @@
+framework module Pods_Incident_Reporting_System {
+  umbrella header "Pods-Incident Reporting System-umbrella.h"
+
+  export *
+  module * { export * }
+}
