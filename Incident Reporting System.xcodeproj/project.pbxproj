@@ -18,6 +18,7 @@
 		845E71631CBB687000FE485B /* Incident_Reporting_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E71621CBB687000FE485B /* Incident_Reporting_SystemTests.swift */; };
 		845E716E1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E716D1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift */; };
 		846F0AF51CCF639F006C8AB9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846F0AF41CCF639F006C8AB9 /* Alamofire.framework */; };
+		846F0AF71CCF645E006C8AB9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846F0AF61CCF645E006C8AB9 /* SwiftyJSON.framework */; };
 		84C005691CCDF932003292AE /* immaga_router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C005681CCDF932003292AE /* immaga_router.swift */; };
 		B23871975AA1F3BAA1159BEB /* Pods_Incident_Reporting_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C20E36BACCD5523BF6E496 /* Pods_Incident_Reporting_System.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		845E716D1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incident_Reporting_SystemUITests.swift; sourceTree = "<group>"; };
 		845E716F1CBB687000FE485B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846F0AF41CCF639F006C8AB9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		846F0AF61CCF645E006C8AB9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Users/admin/Library/Developer/Xcode/DerivedData/Incident_Reporting_System-ezvgqtwrvexghuaqkbvfaooaqwjl/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		84C005681CCDF932003292AE /* immaga_router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = immaga_router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846F0AF71CCF645E006C8AB9 /* SwiftyJSON.framework in Frameworks */,
 				846F0AF51CCF639F006C8AB9 /* Alamofire.framework in Frameworks */,
 				B23871975AA1F3BAA1159BEB /* Pods_Incident_Reporting_System.framework in Frameworks */,
 			);
@@ -93,6 +96,7 @@
 		518FE32334B001256508CD95 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				846F0AF61CCF645E006C8AB9 /* SwiftyJSON.framework */,
 				846F0AF41CCF639F006C8AB9 /* Alamofire.framework */,
 				66C20E36BACCD5523BF6E496 /* Pods_Incident_Reporting_System.framework */,
 			);
