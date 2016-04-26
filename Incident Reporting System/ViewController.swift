@@ -18,6 +18,11 @@ class ViewController: UIViewController {
     }
     
 
+<<<<<<< HEAD
+=======
+//Home page
+
+>>>>>>> homePage
     
     
 //Test page
