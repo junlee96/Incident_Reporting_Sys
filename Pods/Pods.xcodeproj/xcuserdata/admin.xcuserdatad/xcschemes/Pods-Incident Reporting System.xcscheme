@@ -16,10 +16,14 @@
                BuildableIdentifier = 'primary'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                BlueprintIdentifier = '1E23F943C7A3BE11259E9D4C'
 =======
                BlueprintIdentifier = '9F33833BCB93FDFDE44A491B'
 >>>>>>> homePage
+=======
+               BlueprintIdentifier = '894F126D4449F79325285367'
+>>>>>>> parent of 3be613c... re-added swiftyjson
 =======
                BlueprintIdentifier = '894F126D4449F79325285367'
 >>>>>>> parent of 3be613c... re-added swiftyjson
