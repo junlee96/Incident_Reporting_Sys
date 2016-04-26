@@ -17,6 +17,8 @@
 		845E71581CBB687000FE485B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845E71561CBB687000FE485B /* LaunchScreen.storyboard */; };
 		845E71631CBB687000FE485B /* Incident_Reporting_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E71621CBB687000FE485B /* Incident_Reporting_SystemTests.swift */; };
 		845E716E1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E716D1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift */; };
+		846F0AF11CCF5F2B006C8AB9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846F0AF01CCF5F2B006C8AB9 /* Alamofire.framework */; };
+		846F0AF31CCF5F2F006C8AB9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846F0AF21CCF5F2F006C8AB9 /* SwiftyJSON.framework */; };
 		84C005691CCDF932003292AE /* immaga_router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C005681CCDF932003292AE /* immaga_router.swift */; };
 		B23871975AA1F3BAA1159BEB /* Pods_Incident_Reporting_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C20E36BACCD5523BF6E496 /* Pods_Incident_Reporting_System.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		845E71691CBB687000FE485B /* Incident Reporting SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Incident Reporting SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845E716D1CBB687000FE485B /* Incident_Reporting_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incident_Reporting_SystemUITests.swift; sourceTree = "<group>"; };
 		845E716F1CBB687000FE485B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846F0AF01CCF5F2B006C8AB9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Users/admin/Library/Developer/Xcode/DerivedData/Incident_Reporting_System-ezvgqtwrvexghuaqkbvfaooaqwjl/Build/Products/Debug-iphonesimulator/Alamofire.framework"; sourceTree = "<group>"; };
+		846F0AF21CCF5F2F006C8AB9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Users/admin/Library/Developer/Xcode/DerivedData/Incident_Reporting_System-ezvgqtwrvexghuaqkbvfaooaqwjl/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		84C005681CCDF932003292AE /* immaga_router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = immaga_router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846F0AF31CCF5F2F006C8AB9 /* SwiftyJSON.framework in Frameworks */,
+				846F0AF11CCF5F2B006C8AB9 /* Alamofire.framework in Frameworks */,
 				B23871975AA1F3BAA1159BEB /* Pods_Incident_Reporting_System.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +96,8 @@
 		518FE32334B001256508CD95 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				846F0AF21CCF5F2F006C8AB9 /* SwiftyJSON.framework */,
+				846F0AF01CCF5F2B006C8AB9 /* Alamofire.framework */,
 				66C20E36BACCD5523BF6E496 /* Pods_Incident_Reporting_System.framework */,
 			);
 			name = Frameworks;
