@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     }
     
 
-//Home page
     
     
 //Test page
