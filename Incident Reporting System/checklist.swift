@@ -107,6 +107,31 @@ class TasklistDetails {
     class func endpointForTasks() -> String {
         return "http://inciden.shrimpventures.com/api/v1/users/5/schedule_jobs/weekly/tasks"
     }
+    
+    private class func getTasksAtPath(path: String, completionHandler: (TasklistWrapper?, NSError?) -> Void) {
+        Alamofire.request(.GET, path)
+            .responseTasksArray { response in
+                if let error = response.result.error
+                {
+                    completionHandler(nil, error)
+                    return
+                }
+                completionHandler(response.result.value, nil)
+        }
+    }
+    
+    class func getTasks(completionHandler: (TasklistWrapper?, NSError?) -> Void) {
+        getTasksAtPath(TasklistDetails.endpointForTasks(), completionHandler: completionHandler)
+    }
+    
+    class func getMoreTasks(wrapper: TasklistWrapper?, completionHandler: (TasklistWrapper?, NSError?) -> Void) {
+        if wrapper == nil || wrapper?.next == nil
+        {
+            completionHandler(nil, nil)
+            return
+        }
+        getTasksAtPath(wrapper!.next!, completionHandler: completionHandler)
+    }
 }
 
 class SafetyRatingDetails {

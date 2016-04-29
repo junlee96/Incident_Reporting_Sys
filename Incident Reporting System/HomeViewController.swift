@@ -11,7 +11,7 @@ import UIKit
 
 
 class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    var species:Array<StarWarsSpecies>?
+    var species:Array<TasklistDetails>?
     var speciesWrapper:SpeciesWrapper? // holds the last wrapper that we've loaded
     var isLoadingSpecies = false
     
@@ -31,7 +31,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func loadFirstSpecies()
     {
         isLoadingSpecies = true
-        StarWarsSpecies.getSpecies({ (speciesWrapper, error) in
+        checklist.getSpecies({ (speciesWrapper, error) in
             if error != nil
             {
                 // TODO: improved error handling
