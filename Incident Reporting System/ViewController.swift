@@ -1,8 +1,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-//Test page
-  
+    
+
     @IBOutlet weak var fullName: UILabel!
 
     override func viewDidLoad() {

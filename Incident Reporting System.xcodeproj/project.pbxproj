@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		842A8CF11CC8698500D8FF63 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A8CF01CC8698500D8FF63 /* CustomView.swift */; };
 		842A8CF51CC86F7100D8FF63 /* createDesignableUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A8CF41CC86F7100D8FF63 /* createDesignableUI.swift */; };
+		84572D351CD2F0030032AFA7 /* checklistConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84572D341CD2F0030032AFA7 /* checklistConstants.swift */; };
 		845CB4351CCE0730000DD05F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB4341CCE0730000DD05F /* User.swift */; };
 		845E714E1CBB687000FE485B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E714D1CBB687000FE485B /* AppDelegate.swift */; };
 		845E71501CBB687000FE485B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E714F1CBB687000FE485B /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		84B11A8F1CD05A39004672A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B11A8E1CD05A39004672A0 /* HomeViewController.swift */; };
 		84B11A911CD05A76004672A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B11A901CD05A76004672A0 /* LoginViewController.swift */; };
 		84B11A931CD05F42004672A0 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B11A921CD05F42004672A0 /* SignupViewController.swift */; };
+		84B11A971CD094EF004672A0 /* checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B11A961CD094EF004672A0 /* checklist.swift */; };
 		84C005691CCDF932003292AE /* immaga_router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C005681CCDF932003292AE /* immaga_router.swift */; };
 		B23871975AA1F3BAA1159BEB /* Pods_Incident_Reporting_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C20E36BACCD5523BF6E496 /* Pods_Incident_Reporting_System.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +51,7 @@
 		7F5A898890B5BE2A5C1256B4 /* Pods-Incident Reporting System.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Incident Reporting System.release.xcconfig"; path = "Pods/Target Support Files/Pods-Incident Reporting System/Pods-Incident Reporting System.release.xcconfig"; sourceTree = "<group>"; };
 		842A8CF01CC8698500D8FF63 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		842A8CF41CC86F7100D8FF63 /* createDesignableUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createDesignableUI.swift; sourceTree = "<group>"; };
+		84572D341CD2F0030032AFA7 /* checklistConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checklistConstants.swift; sourceTree = "<group>"; };
 		845CB4341CCE0730000DD05F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		845E714A1CBB687000FE485B /* Incident Reporting System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Incident Reporting System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845E714D1CBB687000FE485B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +71,7 @@
 		84B11A8E1CD05A39004672A0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		84B11A901CD05A76004672A0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		84B11A921CD05F42004672A0 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		84B11A961CD094EF004672A0 /* checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checklist.swift; sourceTree = "<group>"; };
 		84C005681CCDF932003292AE /* immaga_router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = immaga_router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,10 +187,6 @@
 		84E9E5161CBE3D5200AEA570 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				845E714F1CBB687000FE485B /* ViewController.swift */,
-				84B11A921CD05F42004672A0 /* SignupViewController.swift */,
-				84B11A901CD05A76004672A0 /* LoginViewController.swift */,
-				84B11A8E1CD05A39004672A0 /* HomeViewController.swift */,
 				842A8CF01CC8698500D8FF63 /* CustomView.swift */,
 				842A8CF41CC86F7100D8FF63 /* createDesignableUI.swift */,
 			);
@@ -198,6 +198,8 @@
 			children = (
 				84C005681CCDF932003292AE /* immaga_router.swift */,
 				845CB4341CCE0730000DD05F /* User.swift */,
+				84B11A961CD094EF004672A0 /* checklist.swift */,
+				84572D341CD2F0030032AFA7 /* checklistConstants.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -205,6 +207,10 @@
 		84E9E5181CBE3D6900AEA570 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				845E714F1CBB687000FE485B /* ViewController.swift */,
+				84B11A921CD05F42004672A0 /* SignupViewController.swift */,
+				84B11A901CD05A76004672A0 /* LoginViewController.swift */,
+				84B11A8E1CD05A39004672A0 /* HomeViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -404,8 +410,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B11A931CD05F42004672A0 /* SignupViewController.swift in Sources */,
+				84B11A971CD094EF004672A0 /* checklist.swift in Sources */,
 				842A8CF11CC8698500D8FF63 /* CustomView.swift in Sources */,
 				84C005691CCDF932003292AE /* immaga_router.swift in Sources */,
+				84572D351CD2F0030032AFA7 /* checklistConstants.swift in Sources */,
 				845E71501CBB687000FE485B /* ViewController.swift in Sources */,
 				845E714E1CBB687000FE485B /* AppDelegate.swift in Sources */,
 				84B11A911CD05A76004672A0 /* LoginViewController.swift in Sources */,

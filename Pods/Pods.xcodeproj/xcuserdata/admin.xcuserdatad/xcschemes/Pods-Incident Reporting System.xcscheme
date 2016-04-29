@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9F33833BCB93FDFDE44A491B'
+               BlueprintIdentifier = '48F2F97657180AE475538D85'
                BlueprintName = 'Pods-Incident Reporting System'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Incident_Reporting_System.framework'>
