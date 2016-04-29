@@ -13,7 +13,7 @@ import UIKit
 class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var species:Array<TasklistDetails>?
     var speciesWrapper:SpeciesWrapper? // holds the last wrapper that we've loaded
-    var isLoadingSpecies = false
+    //var isLoadingSpecies = false
     
     @IBOutlet weak var tableview: UITableView!
  
